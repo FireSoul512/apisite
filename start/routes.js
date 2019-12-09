@@ -47,3 +47,10 @@ Route.get('Contact/:id',"ContactoController.show");
 Route.post('Contact',"ContactoController.store");
 Route.put('Contact/:id','ContactoController.update');
 Route.delete('Contact/:id','ContactoController.destroy');
+
+// NavBar
+Route.get('NavBar','NavbarController.index');
+Route.get('NavBar/:id',"NavbarController.show");
+Route.post('NavBar',"NavbarController.store");
+Route.put('NavBar/:id','NavbarController.update');
+Route.delete('NavBar/:id','NavbarController.destroy');
